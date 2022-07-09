@@ -7,21 +7,21 @@ using TestFilterApplierFilterProvider.Providers;
 
 namespace TextFilterApplierConsoleApp.Services
 {
-    public class FilterServices : IFilterService
+    public class FilterService : IFilterService
     {
         public string Filter(string input)
         {
             string returnValue = input;
 
             // Get all filter types
-            var filters = Assembly.GetAssembly(typeof(FilterServices)).GetTypes()
+            var filterTypes = Assembly.GetAssembly(typeof(FilterService)).GetTypes()
                             .Where(t => t.IsInstanceOfType(typeof(IFilter)));
 
             // Foreach type, apply filter to string (chain up)
-            foreach (var item in filters)
+            foreach (var filterType in filterTypes)
             {
-                var filterMethod = item.GetMethod("Filter");
-                returnValue = filterMethod.Invoke(null, new object[] { returnValue }).ToString();
+                var filter = filterType.Assembly.CreateInstance(filterType.Name) as IFilter;
+                returnValue = filter.Filter(returnValue);
             }
 
             return returnValue;
