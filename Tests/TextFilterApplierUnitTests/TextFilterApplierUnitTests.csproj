@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TextFilterApplierConsoleApp\TextFilterApplierConsoleApp.csproj" />
+    <ProjectReference Include="..\..\TextFilterApplierConsoleApp\TextFilterApplierConsoleApp.csproj" />
   </ItemGroup>
 
 </Project>
