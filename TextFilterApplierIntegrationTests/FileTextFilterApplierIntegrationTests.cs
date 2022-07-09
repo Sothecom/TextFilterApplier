@@ -6,7 +6,7 @@ namespace Tests.TextFilterApplierIntegrationTests
     public class FileTextFilterApplierIntegrationTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void GivenTextFile_WhenFilterApplied_GetExpectedResult()
         {
         }
     }
