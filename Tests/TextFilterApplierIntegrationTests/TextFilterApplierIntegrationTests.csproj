@@ -17,4 +17,13 @@
     <ProjectReference Include="..\..\TextFilterApplierConsoleApp\TextFilterApplierConsoleApp.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="TestData\InputFile.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="TestData\ExpectedOutput.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

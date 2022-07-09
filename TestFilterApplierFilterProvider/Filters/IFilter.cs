@@ -4,8 +4,8 @@ using System.Text;
 
 namespace TestFilterApplierFilterProvider.Providers
 {
-    internal interface IFilterProvider
+    public interface IFilter
     {
-        string Filter();
+        string Filter(string input);
     }
 }

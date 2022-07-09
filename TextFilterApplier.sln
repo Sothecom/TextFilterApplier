@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextFilterApplierConsoleApp", "TextFilterApplierConsoleApp\TextFilterApplierConsoleApp.csproj", "{9959FBDD-C1AF-4D42-9153-86EAACD0F383}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFilterApplierFilterProvider", "TestFilterApplierFilterProvider\TestFilterApplierFilterProvider.csproj", "{9FD9B687-2904-42EA-85DB-2A5419D1028A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFilterApplierFilterProvider", "TestFilterApplierFilterProvider\TextFilterApplierFilterProvider.csproj", "{9FD9B687-2904-42EA-85DB-2A5419D1028A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B2352453-D5B8-426B-A66C-F52F6108F5B6}"
 EndProject

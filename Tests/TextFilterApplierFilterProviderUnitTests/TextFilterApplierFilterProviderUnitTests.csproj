@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\TestFilterApplierFilterProvider\TestFilterApplierFilterProvider.csproj" />
+    <ProjectReference Include="..\..\TestFilterApplierFilterProvider\TextFilterApplierFilterProvider.csproj" />
   </ItemGroup>
 
 </Project>
