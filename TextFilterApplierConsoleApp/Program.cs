@@ -4,9 +4,9 @@ using TextFilterApplierConsoleApp.Services;
 
 namespace TextFilterApplierConsoleApp
 {
-    public class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
             string fileName = "TextInput.txt";
 
@@ -16,7 +16,6 @@ namespace TextFilterApplierConsoleApp
             }
 
             string textToFilter = GetFileContents(fileName);
-            //string textToFilter = "The Force be with you Luke";
 
             FilterService filterService = new FilterService();
             string result = filterService.Filter(textToFilter);
