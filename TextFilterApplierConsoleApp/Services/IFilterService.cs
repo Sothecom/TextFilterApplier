@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TextFilterApplierConsoleApp.Services
+﻿namespace TextFilterApplierConsoleApp.Services
 {
     internal interface IFilterService
     {
-        string Filter(string filter);
+        string Filter(string input);
     }
 }

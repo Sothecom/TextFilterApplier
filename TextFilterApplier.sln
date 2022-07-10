@@ -5,15 +5,15 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextFilterApplierConsoleApp", "TextFilterApplierConsoleApp\TextFilterApplierConsoleApp.csproj", "{9959FBDD-C1AF-4D42-9153-86EAACD0F383}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFilterApplierFilterProvider", "TestFilterApplierFilterProvider\TestFilterApplierFilterProvider.csproj", "{9FD9B687-2904-42EA-85DB-2A5419D1028A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFilterApplierIntegrationTests", "TextFilterApplierIntegrationTests\TextFilterApplierIntegrationTests.csproj", "{EFBB7553-5310-44E7-8968-DF79E85FD125}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFilterApplierFilterProvider", "TestFilterApplierFilterProvider\TextFilterApplierFilterProvider.csproj", "{9FD9B687-2904-42EA-85DB-2A5419D1028A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B2352453-D5B8-426B-A66C-F52F6108F5B6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextFilterApplierUnitTests", "TextFilterApplierUnitTests\TextFilterApplierUnitTests.csproj", "{E6F26A3B-32B2-419A-A148-FA9F93C12662}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFilterApplierFilterProviderUnitTests", "Tests\TextFilterApplierFilterProviderUnitTests\TextFilterApplierFilterProviderUnitTests.csproj", "{2DF18B21-01A3-4520-8F30-BB84DBC36397}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextFilterApplierUnitTests", "Tests\TextFilterApplierUnitTests\TextFilterApplierUnitTests.csproj", "{B5114A8A-6F69-432A-B94C-2409A768D270}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextFilterApplierIntegrationTests", "Tests\TextFilterApplierIntegrationTests\TextFilterApplierIntegrationTests.csproj", "{9B92301C-3DC6-43B4-A79B-1D694263BF27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,26 +29,26 @@ Global
 		{9FD9B687-2904-42EA-85DB-2A5419D1028A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FD9B687-2904-42EA-85DB-2A5419D1028A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FD9B687-2904-42EA-85DB-2A5419D1028A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EFBB7553-5310-44E7-8968-DF79E85FD125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFBB7553-5310-44E7-8968-DF79E85FD125}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFBB7553-5310-44E7-8968-DF79E85FD125}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFBB7553-5310-44E7-8968-DF79E85FD125}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E6F26A3B-32B2-419A-A148-FA9F93C12662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E6F26A3B-32B2-419A-A148-FA9F93C12662}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E6F26A3B-32B2-419A-A148-FA9F93C12662}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E6F26A3B-32B2-419A-A148-FA9F93C12662}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2DF18B21-01A3-4520-8F30-BB84DBC36397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2DF18B21-01A3-4520-8F30-BB84DBC36397}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DF18B21-01A3-4520-8F30-BB84DBC36397}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DF18B21-01A3-4520-8F30-BB84DBC36397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5114A8A-6F69-432A-B94C-2409A768D270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5114A8A-6F69-432A-B94C-2409A768D270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5114A8A-6F69-432A-B94C-2409A768D270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5114A8A-6F69-432A-B94C-2409A768D270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B92301C-3DC6-43B4-A79B-1D694263BF27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B92301C-3DC6-43B4-A79B-1D694263BF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B92301C-3DC6-43B4-A79B-1D694263BF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B92301C-3DC6-43B4-A79B-1D694263BF27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{EFBB7553-5310-44E7-8968-DF79E85FD125} = {B2352453-D5B8-426B-A66C-F52F6108F5B6}
-		{E6F26A3B-32B2-419A-A148-FA9F93C12662} = {B2352453-D5B8-426B-A66C-F52F6108F5B6}
 		{2DF18B21-01A3-4520-8F30-BB84DBC36397} = {B2352453-D5B8-426B-A66C-F52F6108F5B6}
+		{B5114A8A-6F69-432A-B94C-2409A768D270} = {B2352453-D5B8-426B-A66C-F52F6108F5B6}
+		{9B92301C-3DC6-43B4-A79B-1D694263BF27} = {B2352453-D5B8-426B-A66C-F52F6108F5B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26A12122-A208-410F-AD98-F07B55363ADD}
